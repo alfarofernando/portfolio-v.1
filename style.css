@@ -1,0 +1,133 @@
+#Inicio {
+    background-image: url('assets/bg-inicio.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-colour {
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+}
+
+
+.justify-text {
+    text-align: justify;
+}
+
+.accordion-header button {
+    font-size: 1.25rem;
+}
+
+.bg-estudios {
+    background-color: #dee2e6;
+}
+
+.redes-sociales-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+    font-size: 1.5rem;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.redes-sociales a {
+    text-decoration: none;
+}
+
+.redes-sociales a:hover {
+    transform: scale(2);
+    transition: transform 1s ease;
+}
+
+.rs-r {
+    color: red;
+}
+
+.rs-b {
+    color: blue;
+}
+
+.carousel-item {
+    transition: transform 4s;
+    transform: translateX(-100%);
+
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 3;
+    }
+
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+@keyframes slideToRight {
+    0% {
+        transform: translateX(100);
+        opacity: 3;
+    }
+
+    100% {
+        transform: translateX(-100);
+        opacity: 0;
+    }
+}
+
+#carouselTechnologies1 .carousel-item {
+    animation: slideFromLeft 2.5s ease-in;
+}
+
+#carouselTechnologies2 .carousel-item {
+    animation: slideToRight 2.5s ease-in;
+}
+
+.glow-div {
+    animation: glow-animation 3s ease-in-out infinite alternate;
+}
+
+#fraseCarousel {
+    font-stretch: expanded;
+    font-weight: 500;    
+}
+
+@keyframes glow-animation {
+    from {
+        box-shadow: 0 0 10px #00c3ff, 0 0 20px #00c3ff, 0 0 30px #00c3ff, 0 0 40px #00c3ff, 0 0 50px #00c3ff, 0 0 60px #00c3ff, 0 0 70px #00c3ff;
+    }
+
+    to {
+        box-shadow: none;
+    }
+}
+
+.dropdown-menu {
+    background-color: #343a40; 
+}
+
+.dropdown-item {
+    color: #f8f9fa !important; 
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #f8f9fa; 
+    color: #343a40 !important; 
+}

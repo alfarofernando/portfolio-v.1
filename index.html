@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alfa Developer</title>
+    <!--estilos bootstrap5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--iconos bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--link al style.css-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="content" style="position: relative;" data-bs-spy="scroll" data-bs-target="#navbar-scroll" data-bs-offset="0"
+    tabindex="0" data-bs-smooth-scroll="true">
+
+    <!--incio navbar fixeado top-->
+     <nav id="navbar-scroll" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="/" class="navbar-brand">
+                <i class="bi bi-pc-display"></i>
+                <span class="align-middle">Alfa Developer</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navBarSupportedContent" aria-controls="navBarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navBarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a href="#inicio" id="inicio" class="nav-link active" aria-current="page">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#seccionSobreMi" id="sobreMi" class="nav-link">
+                            Sobre Mi
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#seccionProyectos" id="proyectos" class="nav-link">
+                            Proyectos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#seccionEstudio" id="estudios" class="nav-link">
+                            Estudios
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a id="idioma" class="nav-link dropdown-toggle" href="#" id="idiomaDropdown" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">Idioma</a>
+                        <ul class="dropdown-menu dropdown-menu-end bg-dark" aria-labelledby="idiomaDropdown">
+                            <li><a class="dropdown-item text-light" rel="nofollow" id="idiomaEspañol">Español</a></li>
+                            <li><a class="dropdown-item text-light" rel="nofollow" id="idiomaIngles">Inglés</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--fin navbar fixeado top-->
+
+    <!--inicio sliders-->
+    <section id="Inicio" class="mt-5 pt-5 py-5">
+        <div class="row justify-content-center">
+            <!-- Primer carousel -->
+            <div class="col-12 col-md-3 ">
+                <div id="carouselTechnologies1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/carousel_c.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="assets/carousel_bootstrap.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="assets/carousel_css.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="assets/carousel_sqlserver.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                    </div>
+                    <!-- <a href="#carouselTechnologies1" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a href="#carouselTechnologies1" class="carousel-control-next" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a> -->
+                </div>
+            </div>
+            <!--inicio quote de inicio-->
+             <div class="col-12 col-md-6 rounded txt-colour text-center glow-div">
+                <h2 class="display-4 text-center justify-text py-1 " id="fraseCarousel" style="font-stretch: expanded;">
+                    "La tecnología es la herramienta que libera todo el potencial humano."
+                </h2>
+            </div>
+            <!--fin quote de inicio-->
+            <!-- Segundo carousel -->
+            <div class="col-12 col-md-3 ">
+                <div id="carouselTechnologies2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/carousel_git.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="assets/carousel_html.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="assets/carousel_javascript.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="assets/carousel_linux.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="assets/carousel_mysql.png" alt="C" class="d-block mx-auto img-fluid">
+                        </div>
+                    </div>
+                    <!-- <a href="#carouselTechnologies2" class="carousel-control-prev" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a href="#carouselTechnologies2" class="carousel-control-next" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a> -->
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--fin slider-->
+
+    <!-- inicio Sobre mi-->
+    <main class="bg-dark text-white py-2" id="sobreMi">
+        <div class="container">
+            <div class="text-center py-3 text-primary">
+                <i class="bi bi-lightning h4"></i>
+                <i class="bi bi-lightning h4 text-danger"></i>
+                <i class="bi bi-lightning h4"></i>
+            </div>
+            <h2 id="seccionSobreMi" class="text-center display-5 mb-5">Sobre Mi</h2>
+
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <h1 id="textoSobreMi1" class="fs-1">Hola, soy Fernando Alfaro</h1>
+                    <hr>
+                    <p id="textoSobreMi2" class="fs-3">
+                        Me considero una persona seria, organizada y que sobre todo tiene la habilidad de adquirir
+                        conocimiento en poco tiempo.
+                    </p>
+                    <p id="textoSobreMi3" class="fs-3">
+                        Soy una persona que le encanta trabajar, compartir y vivir experiencias con otros.
+                    </p>
+                    <p id="textoSobreMi4" class="fs-3">
+                        Estoy interesado en participar de proyectos donde pueda desempeñar mis habilidades con gente
+                        positiva y con la que poder mejorar y aprender.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="assets/foto-sobremi.jpg" alt="gatito" class="img-fluid rounded"
+                        style="max-height: 600px; width: 90%; height: auto;">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- fin Sobre mi-->
+
+    <!-- inicio Tarjetas con proyectos-->
+    <section id="proyectos" class="bg-secondary text-light ">
+        <div class="container">
+            <div class="text-center h1 py-2">
+                <i class="bi bi-person-workspace"></i>
+                <i class="bi bi-person-workspace"></i>
+                <i class="bi bi-person-workspace"></i>
+            </div>
+            <h2 id="seccionProyectos" class="text-center mb-5 display-4">Proyectos</h2>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6 mb-3">
+                    <div class="card h-100" style="width: 18rem; ">
+                        <img src="assets/proyecto-portafolio.jpg" class="card-img-top img-fluid h-100" alt="...">
+                        <div class="card-body">
+                            <h5 id="textoProyectos1" class="card-title">Portafolio</h5>
+                            <p id="textoProyectos2" class="card-text">Mi primer proyecto</p>
+                            <a id="textoProyectos3" href="#" class="btn btn-primary">Ir a repositorio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6  mb-3">
+                    <div class="card h-100" style="width: 18rem;">
+                        <img src="assets/proyecto-proximamente.jpg" class="card-img-top img-fluid h-100" alt="...">
+                        <div class="card-body">
+                            <h5 id="textoProyectos4" class="card-title">Proximamente</h5>
+                            <p id="textoProyectos5" class="card-text">Novedades en breve</p>
+                            <a id="textoProyectos6" href="#" class="btn btn-primary">Haz Click Aqui</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-md-6  mb-2">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- fin Tarjetas con proyectos-->
+
+    <!--inicio Estudios-->
+    <section id="estudios" class="py-5 bg-estudios text-dark">
+        <div class="container">
+            <div class="text-center py-3 h4 text-danger">
+                <i class="bi bi-book-half "></i>
+                <i class="bi bi-book-half  text-primary"></i>
+                <i class="bi bi-book-half "></i>
+            </div>
+            <h2 id="seccionEstudio" class="text-center display-5 mb-5">Estudios</h2>
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <img src="assets/estudios.jpg" alt="estudios" class="img-fluid rounded"
+                        style="max-height: 600px; width: 90%; height: auto;">
+                </div>
+                <!--inicio acordeon-->
+                <div class="col-12 col-md-6 col-lg-8">
+                    <div class="accordion accordion-flush " id="accordionEstudios">
+                        <div class="accordion-item bg-estudios">
+                            <h2 class="accordion-header">
+                                <button id="textoEstudios1" class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Tecnicatura Universitaria en Sistemas Informaticos
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionEstudios">
+                                <div id="textoEstudios2" class="accordion-body fs-4">
+
+                                    Cursando actualmente el 2do año en la UTN Avellaneda, con un promedio parcial de
+                                    8.6
+                                    , habiendo aprendido fundamentos y logica de la programacion.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-estudios">
+                            <h2 class="accordion-header">
+                                <button id="textoEstudios3" class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Curso en Udemy de Bootstrap 5
+                                </button>
+
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionEstudios">
+                                <div id="textoEstudios4" class="accordion-body fs-4">
+
+                                    Curso extenso de alrededor de 100 horas donde aprendi a desarrollar páginas web
+                                    responsives (mobile first) con HTML, CSS, Flexbox, Sass, Bootstrap 5, Git y
+                                    Github
+                                    Page
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-estudios">
+                            <h2 class="accordion-header">
+                                <button id="textoEstudios5" class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Curso de C#
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionEstudios">
+                                <div id="textoEstudios6" class="accordion-body fs-4">
+
+                                    Curso extenso de alrededor de 50 horas donde aprendi programacion orientada a
+                                    objetos, WPF, DDBB , SqlServer y LINQ.
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--fin acordeon-->
+            </div>
+        </div>
+    </section>
+    <!--fin estudios-->
+
+    <!--inicio secion contacto-->
+    <div class="redes-sociales-container">
+        <section id="contacto" class="redes-sociales">
+            <a href="https://www.linkedin.com/in/fernando-alfaro-132973246" target="_blank">
+                <i class="bi bi-linkedin rs-r"></i>
+            </a>
+            <a href="https://github.com/alfarofernando" target="_blank">
+                <i class="bi bi-github rs-b"></i>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=541552606455" target="_blank">
+                <i class="bi bi-whatsapp rs-r"></i>
+            </a>
+            <a href="mailto:alfarofernando@live.com" target="_blank">
+                <i class="bi bi-envelope rs-b"></i>
+            </a>
+        </section>
+    </div>
+    <!--fin seccion contacto-->
+
+    <div style="display: flex; margin: 0px;">
+        <!-- inicio footer-->
+        <footer class="bg-dark py-2 text-center text-light" style="width: 125%;">
+            <span id="footer">Portfolio de Alfaro Fernando 05-2024</span>
+        </footer>
+        <!--fin footer-->
+    </div>
+    <!--scripts-->
+    <script src="idiomaEspañol.js"></script>
+    <script src="idiomaIngles.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
